@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.head{
+    height: 50%;
+    margin: 123px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.banner{
+    padding: 20px;
+    margin: -50px;
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 110%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    font-size: 30px;
+}
+.text1{
+    padding-top: 100px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 15px;
+}
+p{
+    padding-bottom: 40%;
+    flex: 2;
+    height: auto;
+}
+.btn{
+   text-align: center;
+   height: 30%;
+}
+.button{
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: turquoise;
+    padding: 20px;
+    border: none;
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.container{
+    height: 50%;
+    margin: 123px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.grid{
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 50px 50px 50px 50px; /*Make the grid smaller than the container*/
+  grid-gap: 10px;
+  background-color: #5564704d;
+  padding: 10px;
+  color: black;
+
+}
+
+.box1{background-color: blue;
+      flex: 1;
+}
+.box2{background-color: blueviolet;
+      flex: 1;
+}
+.box3{background-color: brown;
+      flex: 1;
+}
+.box4{background-color: burlywood;
+      flex: 1;
+}
+.box5{background-color: cadetblue;
+      flex: 1;
+}
+.box6{background-color: chocolate;
+      flex: 1;
+}
+.box7{background-color: coral;
+      flex: 1;
+}
+.box8{background-color: crimson;
+      flex: 1;
+}
+.text2{
+    padding-top: 50px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 15px;
+}
