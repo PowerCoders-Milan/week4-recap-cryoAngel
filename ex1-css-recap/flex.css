@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    height: 50%;
+    margin: 123px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.text{
+    position: relative;
+    left: -81px;
+    bottom: -92px;
+}
+h3{
+    position: relative;
+    padding: 60px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1{
+    background-color: tomato;
+}
+.box2{
+    background-color: tomato;
+}
+.box3{
+    background-color: tomato;
+}
+.box4{
+    background-color: tomato;
+}
